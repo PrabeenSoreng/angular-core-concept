@@ -1,5 +1,13 @@
 # AngularCoreConcepts
 
+This project shows several core features of angular including:
+
+* Components
+* Data Binding
+* Communication between components
+* Services
+* Routing
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
