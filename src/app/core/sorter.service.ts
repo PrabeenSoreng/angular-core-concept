@@ -21,9 +21,11 @@ export class SorterService {
       if(prop && prop.indexOf('.') > -1) {
         aVal = this.resolveProperty(prop, a);
         bVal = this.resolveProperty(prop, b);
+        console.log('Hello');
       } else {
         aVal = a[prop];
         bVal = b[prop];
+        console.log(a, aVal);
       }
 
       if(this.isString(aVal)) aVal = aVal.trim().toUpperCase();
